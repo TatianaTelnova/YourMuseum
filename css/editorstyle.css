@@ -1,3 +1,12 @@
+h2 {
+    margin: 0px 10px;
+}
+
+#settings {
+    position: relative;
+    padding-bottom: 35px;
+}
+
 .buttons {
     min-width: 300px;
     height: 148px;
@@ -20,6 +29,7 @@
 #green,
 #axes-green,
 #blue,
+#blueexit,
 #pink,
 #axes-pink {
     width: 170px;
@@ -60,4 +70,14 @@
 #pink:hover,
 #axes-pink:hover {
     background-color: #bb3461;
+}
+
+#blueexit {
+    position: absolute;
+    bottom: 0px;
+    background-color: #448aff;
+}
+
+#blueexit:hover {
+    background-color: #004bce;
 }

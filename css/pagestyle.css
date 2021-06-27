@@ -4,8 +4,30 @@
 }
 
 #info {
+    position: relative;
     display: flex;
     flex-direction: column;
     margin: 10px;
     max-width: 300px;
+    padding-bottom: 35px;
+}
+
+#blueexit {
+    position: absolute;
+    bottom: 0px;
+    width: 170px;
+    height: 27px;
+    padding: 2px;
+    margin: 0px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #448aff;
+}
+
+#blueexit:hover {
+    background-color: #004bce;
 }
