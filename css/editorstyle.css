@@ -1,0 +1,63 @@
+.buttons {
+    min-width: 300px;
+    height: 148px;
+    display: flex;
+    flex-direction: column;
+}
+
+.field {
+    max-width: 170px;
+    height: 25px;
+    margin: 5px 10px;
+    clear: both;
+    text-align: right;
+}
+
+#text {
+    float: left;
+}
+
+#green,
+#axes-green,
+#blue,
+#pink,
+#axes-pink {
+    width: 170px;
+    height: 27px;
+    padding: 2px;
+    margin: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+#blue {
+    background-color: #448aff;
+}
+
+#blue:hover {
+    background-color: #004bce;
+}
+
+#green,
+#axes-green {
+    background-color: #5cdc5c;
+}
+
+#green:hover,
+#axes-green:hover {
+    background-color: #2da82d;
+}
+
+#pink,
+#axes-pink {
+    background-color: #ff4081;
+}
+
+#pink:hover,
+#axes-pink:hover {
+    background-color: #bb3461;
+}

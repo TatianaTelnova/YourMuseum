@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Твой музей</title>
+    <link rel="stylesheet" href="../css/mainstyle.css">
+    <link rel="stylesheet" href="../css/editorstyle.css">
+    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="icon" href="data:;base64,=">
+    <script src="../js/three.js"></script>
+    <script src="../js/OrbitControls.js"></script>
+    <script src="../js/colorpicker.min.js"></script>
+</head>
+
+<body>
+    <div id="heading">
+        <div id="cols">
+            <p id="smalltext">твой</p>
+            <p id="bigtext">музей</p>
+        </div>
+    </div>
+    <div id="main2">
+        <div id="settings">
+            <div class="buttons">
+                <button id="axes-green" onclick="axeschange()">Оси координат</button>
+                <button id="blue" onclick="clickbtn(this)">Куб</button>
+                <button id="blue" onclick="clickbtn(this)">Пирамида</button>
+                <button id="blue" onclick="clickbtn(this)">Сфера</button>
+            </div>
+            <div id="parameters"></div>
+            <div id="position"></div>
+            <div id="block"></div>
+            <div id="blockdel"></div>
+            <div id="color-picker" class="cp-default">
+                <div class="picker-wrapper">
+                    <div id="picker" class="picker"></div>
+                    <div id="picker-indicator" class="picker-indicator"></div>
+                </div>
+                <div class="pcr-wrapper">
+                    <div id="pcr" class="pcr"></div>
+                    <div id="pcr-indicator" class="pcr-indicator"></div>
+                </div>
+                <div id="color-values">
+                    <a>HEX: <span id="hex"></span></a>
+                    <div id="pcr-hex"></div>
+                </div>
+            </div>
+        </div>
+        <div class="content">
+            <canvas id="canvas3D">
+                <!-- здесь будут 3D объекты -->          
+            </canvas>
+        </div>
+        <script src="../js/editor/base.js"></script>
+        <script src="../js/editor/choosecolor.js"></script>
+        <script src="../js/editor/objects.js"></script>
+    </div>
+</body>
+
+</html>

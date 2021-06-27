@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Твой музей</title>
+    <link rel="stylesheet" href="../css/mainstyle.css">
+    <link rel="stylesheet" href="../css/pagestyle.css">
+    <link rel="icon" href="data:;base64,=">
+    <script src="../js/three.js"></script>
+</head>
+
+<body>
+    <div id="heading">
+        <div id="cols">
+            <p id="smalltext">твой</p>
+            <p id="bigtext">музей</p>
+        </div>
+    </div>
+    <div id="main2">
+        <div id="info">
+            <div id="title">
+                <p id="small">П. Мондриан</p>
+                <p id="big">Композиция с красным, синим и жёлтым</p>
+            </div>
+            <p>
+                Пит Мондриан выработал собственный абстрактно-геометрический стиль — неопластицизм. Пространство холста он заполнял прямоугольниками и квадратами одного из трёх основных цветов спектра — желтого, красного и синего.
+                <br/><br/>"Композиция с красным, синим и жёлтым" является хорошим примером работ в таком стиле.
+                <br/><br/>Интересно, что будет, если нажать на прямоугольники?
+            </p>
+        </div>
+        <div class="content">
+            <canvas id="canvas3D">
+                <!-- здесь будут 3D объекты -->          
+            </canvas>
+        </div>
+        <script src="../js/Mondriaan/Mondriaan1.js"></script>
+        <script src="../js/Mondriaan/Mondriaan1pick.js"></script>
+    </div>
+</body>
+
+</html>
